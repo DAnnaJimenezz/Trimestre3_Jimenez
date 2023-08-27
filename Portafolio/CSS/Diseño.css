@@ -181,6 +181,7 @@ h1{
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
     cursor: default;
     transition: all 400ms ease;
+    background-color: rgb(209,239,177);
 }
 
 .tarjeta:hover{
@@ -190,20 +191,45 @@ h1{
 
 .tarjeta img{
     width: 100%;
-    height: 210px;
+    height: 230px;
+    background-color: #fff;
 }
 
 .tarjeta .contenido {
     padding: 15px;
     text-align: center;
+    background-color: rgb(209,239,177);
 }
 
 .tarjeta .contenido p{
     line-height: 1.5;
     color: #6a6a6a;
+    background-color: rgb(209,239,177);
 }
 
 .tarjeta .contenido h3{
     font-weight: 400;
     margin-bottom: 15px;
+    background-color: rgb(209,239,177);
+}
+
+/*******************************************************************************************************/
+
+span {
+    color:red;
+    background-color: rgb(209,239,177);
+}
+
+.tarjeta .contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color:black;
+    border: 10px solid;
+    border-radius: 4px;
+}
+.tarjeta .contenido a:hover {
+    color: #fff;
+    background-color: darkgrey;
 }
