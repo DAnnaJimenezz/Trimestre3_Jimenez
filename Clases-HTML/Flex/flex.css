@@ -1,0 +1,109 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    background-color:red;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    box-sizing: border-box;
+    position:relative;
+}
+
+.seccion1 {
+    background-color: lightgreen;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    margin: 10px;
+    bottom: 0;
+    right: 0;
+}
+
+
+.seccion2 {
+    background-color: lightseagreen;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    margin: 10px;
+    bottom: 10;
+    right: 0;
+}
+
+
+.seccion3 {
+    background-color: lightgray;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    margin: 10px;
+    bottom: 0;
+    left: 0;
+}
+
+
+.seccion4 {
+    background-color: lightblue;
+    height: 150px;
+    width:150px;
+    border: 1px solid black;
+    margin: 10px;
+    top: 10;
+    left: 0;
+}
+
+
+.seccion5 {
+    background-color: lightpink;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    margin: 10px;
+    top: 10;
+    left: 200px;
+}
+
+
+.seccion6 {
+    background-color: lightseagreen;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    margin: 10px;
+    bottom: 200px;
+    left: 0;
+}
+
+
+.seccion7 {
+    background-color: lightgoldenrodyellow;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    margin: 10px;
+    bottom: 0;
+    left: 200px;
+}
+
+
+.seccion8{
+    background-color: lightsalmon;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    margin: 10px;
+    bottom: 5;
+    left: 200px;
+}
+
+
+.seccion9{
+    background-color: lightgrey;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    margin: 10px;
+    bottom: 200px;
+    right: 200px;
+}

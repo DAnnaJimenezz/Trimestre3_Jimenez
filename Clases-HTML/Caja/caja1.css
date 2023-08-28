@@ -1,0 +1,100 @@
+.main1 {
+  width: 600px;
+  height: 600px;
+  background: lightblue;
+  border: 15px solid blue;
+  box-sizing: border-box;
+  position:relative;
+  align-items: center;
+}
+
+.seccion1{
+  width: 150px;
+  height: 150px;
+  background: green;
+  position: absolute;
+  margin: 10px;
+  bottom: 0;
+  right: 0;
+}
+
+.seccion2{
+  width: 150px;
+  height: 150px;
+  background:green;
+  position: absolute;
+  margin: 10px;
+  bottom: 10;
+  right: 0;
+}
+
+.seccion3{
+  width: 150px;
+  height: 150px;
+  background: green;
+  position: absolute;
+  margin: 10px;
+  bottom: 0;
+  left: 0;
+}
+
+.seccion4{
+  width: 150px;
+  height: 150px;
+  background: green;
+  position: absolute;
+  margin: 10px;
+  top: 10;
+  left: 0;
+}
+
+.seccion5{
+  width: 150px;
+  height: 150px;
+  background: green;
+  position: absolute;
+  margin: 10px;
+  top: 10;
+  left: 200px;
+  
+}
+
+.seccion6{
+  width: 150px;
+  height: 150px;
+  background: green;
+  position: absolute;
+  margin: 10px;
+  bottom: 200px;
+  left: 0;
+}
+
+.seccion7{
+  width: 150px;
+  height: 150px;
+  background: green;
+  position: absolute;
+  margin: 10px;
+  bottom: 0;
+  left: 200px;
+}
+
+.seccion8{
+  width: 150px;
+  height: 150px;
+  background: green;
+  position: absolute;
+  margin: 10px;
+  bottom: 5;
+  left: 200px;
+}
+
+.seccion9{
+  width: 150px;
+  background: green;
+  height: 150px;
+  position: absolute;
+  margin: 10px;
+  bottom: 200px;
+  right: 200px;
+}
