@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2? family= Barriecito & family= Bricolage+Grotesque:opsz,wght@10..48,600 & family= Josefin+Sans:wght@300 & family = Rubik:wght@300 & familia= Fuente+Código+Pro:wght@200;400 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barriecito', cursive;
+    background-color: rgb(116,157,122);
+}
+
+
+.Home {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.navegacion{
+    display: flex;
+    background-color: rgb(127,143,133);
+    justify-content: center;
+
+}
+
+.marca{
+    width: 80px;
+    height: 70px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 10px;
+}
+
+
+.Menu{
+    display: flex;
+    justify-content: center;
+    margin-top: -7px;
+    align-items: center;
+    margin-top: 70px;
+    margin: 40px;
+}
+
+.Menu li{
+    list-style: none;
+}
+.Menu a {
+    color:black;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.Menu a:hover{
+    background-color: lightseagreen;
+    color:black;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+span {
+    color:rgb(2, 48, 2);
+}
+
+.Cabeza {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+
+}
+
+.Iconos {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 30px;
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.Iconos li img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.box {
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background-color: rgb(116,157,122);;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search{
+    width: 100%;
+    max-width: 700px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 20%;
+    margin-right: 50%;
+}
+
+.search input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 18px;
+    color: black;
+}
+
+::placeholder {
+    color: black;
+}
+
+.search button img {
+    width: 25px;
+}
+
+.search button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+
+.barra {
+    width: 10%;
+    height: 9%;
+    position: fixed;
+    transition: -4s all;
+    z-index: 1;
+}
