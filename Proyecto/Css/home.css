@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css2? family= Barriecito & family= Bricolage+Grotesque:opsz,wght@10..48,600 & family= Josefin+Sans:wght@300 & family = Rubik:wght@300 & familia= Fuente+Código+Pro:wght@200;400 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu&family=Sedgwick+Ave+Display&family=Ubuntu+Condensed&display=swap');
 
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    font-family: 'Barriecito', cursive;
-    background-color: rgb(116,157,122);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 
@@ -20,9 +19,8 @@ body {
 
 .navegacion{
     display: flex;
-    background-color: rgb(127,143,133);
+    background-color: #20DCC5;
     justify-content: center;
-
 }
 
 .marca{
@@ -43,6 +41,8 @@ body {
     align-items: center;
     margin-top: 70px;
     margin: 40px;
+    gap: 25px;
+    height: 2px;
 }
 
 .Menu li{
@@ -52,6 +52,7 @@ body {
     color:black;
     padding: 10px 20px;
     text-decoration: none;
+    font-size: 20px
 }
 
 .Menu a:hover{
@@ -62,17 +63,22 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
+    margin-top: 30px;
 }
 span {
     color:rgb(2, 48, 2);
 }
 
 .Cabeza {
+    height: 0px;
     display: flex;
-    justify-content: flex-end;
-    padding: 10px;
+    justify-content: center;
 
+}
+
+.Pantalla-Inicio {
+    background-color: #fff;
 }
 
 .Iconos {
@@ -95,26 +101,27 @@ span {
 .box {
     width: 100%;
     min-height: 100vh;
-    padding: 5%;
-    background-color: rgb(116,157,122);;
+    background-color: rgb(255, 255, 255);;
     background-position: center;
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center;
-
+    justify-content: start;
+    flex-direction: column;
+    padding-top: 15px;
 }
 
 .search{
-    width: 100%;
+    width: 90vw;
+    height: 80px;
     max-width: 700px;
     background: #fff;
     display: flex;
     align-items: center;
     border-radius: 10px;
     padding: 10px 20px;
-    margin-bottom: 20%;
-    margin-right: 50%;
+    margin-top: 10%;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 .search input {
