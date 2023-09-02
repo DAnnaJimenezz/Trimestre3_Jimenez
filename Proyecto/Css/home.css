@@ -30,7 +30,7 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    margin: 10px;
+    margin: 9px;
 }
 
 
@@ -45,9 +45,12 @@ body {
     height: 2px;
 }
 
+
 .Menu li{
     list-style: none;
 }
+
+
 .Menu a {
     color:black;
     padding: 10px 20px;
@@ -55,48 +58,56 @@ body {
     font-size: 20px
 }
 
+
 .Menu a:hover{
     background-color: lightseagreen;
     color:black;
     border-radius: 10px;
 }
 
+
 h1 {
     text-align: center;
     font-size: 50px;
     margin-top: 30px;
 }
+
+
 span {
-    color:rgb(2, 48, 2);
+    color:lightsteelblue;
 }
+
 
 .Cabeza {
     height: 0px;
     display: flex;
     justify-content: center;
-
 }
+
 
 .Pantalla-Inicio {
     background-color: #fff;
 }
 
+
 .Iconos {
     list-style: none;
     display: flex;
     gap: 10px;
-    margin: 30px;
+    margin: 15px;
     padding: 0;
     position: absolute;
     top: 10px;
-    right: 10px;
+    right: 20px;
 }
+
 
 .Iconos li img {
     width: 30px;
     height: 30px;
     cursor: pointer;
 }
+
 
 .box {
     width: 100%;
