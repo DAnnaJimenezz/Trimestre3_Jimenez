@@ -20,7 +20,57 @@ body {
 .navegacion{
     display: flex;
     background-color: #20DCC5;
+    font-size: 15px;
     justify-content: center;
+    width: 100vw;
+    height: 75px;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    margin-top: -7px;
+    align-items: center;
+    margin-top: 70px;
+    margin: 40px;
+    gap: 25px;
+    height: 2px;
+}
+
+.menu-horizontal >li >a {
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-horizontal >li:hover {
+    background-color: lightseagreen;
+    border-radius: 10px;
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    background-color:#20DCC5;
+}
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+
+.menu-vertical li:hover{
+    background-color: lightseagreen;
+    border-radius: 10px;
+}
+
+.menu-vertical li a{
+    display: block;
+    color: black;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
 }
 
 .marca{
@@ -30,39 +80,7 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    margin: 9px;
-}
-
-
-.Menu{
-    display: flex;
-    justify-content: center;
-    margin-top: -7px;
-    align-items: center;
-    margin-top: 70px;
-    margin: 40px;
-    gap: 25px;
-    height: 2px;
-}
-
-
-.Menu li{
-    list-style: none;
-}
-
-
-.Menu a {
-    color:black;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 20px
-}
-
-
-.Menu a:hover{
-    background-color: lightseagreen;
-    color:black;
-    border-radius: 10px;
+    margin: 5px;
 }
 
 
